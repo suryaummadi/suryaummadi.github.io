@@ -518,10 +518,22 @@ a.hoverline:hover {
   height: 240px;
 }
 
-.card-action a.btn-floating {
-  margin-top: 200px;
-  margin-bottom: 0px;
+/* for the buttton on project*/
+
+.card-reveal {
+    display: flex;
+    flex-direction: column;
 }
+
+.card-action {
+    margin-top: auto; /* This pushes the buttons to the bottom */
+}
+
+.card-action a.btn-floating {
+    margin-bottom: 0px;
+}
+
+/**********************/
 
 #contact a:not(.btn-floating) {
   bottom: 6px;
