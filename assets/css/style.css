@@ -431,11 +431,18 @@ h3 {
   color: #666;
 }
 
-/*button mechanism*/
-.card-reveal .card-action {
-    position: relative;
-    margin-top: 100px !important;
+/******************/
+.card-content {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
 }
+
+.card-content .card-action {
+    margin-top: auto !important;
+    padding-top: 20px !important;
+}
+/**************/
 
 .card ul {
   margin-bottom: 0;
