@@ -431,10 +431,10 @@ h3 {
   color: #666;
 }
 
-/* button work*/
-.card-action {
-    margin-top: 200px !important;
-    padding-top: 0px !important;
+/*button mechanism*/
+.card-reveal .card-action {
+    position: relative;
+    margin-top: 100px !important;
 }
 
 .card ul {
