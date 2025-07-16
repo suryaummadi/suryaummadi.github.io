@@ -568,7 +568,6 @@ small {
 
 
 /*modified for projects section */
-
 #projects .col.s12.m6.l4 {
   width: 50% !important;
   padding: 0 15px;
@@ -588,15 +587,14 @@ small {
   overflow: hidden;
 }
 
-/* Fix spacing between title and description */
 #projects .card .card-content .card-title {
-  margin-bottom: 2px !important;
+  margin-bottom: 0 !important;
 }
 
 #projects .card .card-content p {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
-  padding-top: 5px;
+  padding-top: 0 !important;
 }
 
 /* modified for increase of horizantal space of experience section */
