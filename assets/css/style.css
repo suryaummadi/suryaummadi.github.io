@@ -527,8 +527,10 @@ a.hoverline:hover {
 
 .card-reveal .card-action {
     position: absolute !important;
-   
-    margin: 0 !important;
+    bottom: 20px !important;
+    left: 20px !important;
+    right: 20px !important;
+    background-color: red !important; /* Temporary - to see if it's working */
 }
 
 .card-reveal .card-action a.btn-floating {
