@@ -572,7 +572,6 @@ small {
   width: 50% !important;
   padding: 0 15px;
 }
-
 #projects .card {
   width: 100% !important;
   max-width: 500px !important; /* Prevent excessive width */
@@ -581,69 +580,67 @@ small {
   display: flex;
   flex-direction: column;
 }
-
 #projects .card.medium .card-image {
   height: 200px !important;
   overflow: hidden;
 }
-
 #projects .card .card-content .card-title {
   background-color: transparent !important;
-  margin-bottom: 8px !important;
+  margin-bottom: 16px !important; /* Increased space between title and description */
   padding: 0 !important;
   line-height: 1.2 !important;
 }
-
 #projects .card .card-content p {
   background-color: transparent !important;
   margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  margin-bottom: 16px !important; /* Added space below description for buttons */
   padding: 0 !important;
   line-height: 1.4 !important;
 }
-
 #projects .card .card-content {
   background-color: transparent !important;
   padding: 20px !important;
   position: relative !important;
   overflow: hidden !important;
+  flex: 1; /* Allow content to grow */
+  display: flex;
+  flex-direction: column;
 }
-
-/* Completely hide all floating action buttons in projects section */
+/* Show floating action buttons in projects section */
 #projects .btn-floating {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-  position: absolute !important;
-  left: -9999px !important;
-  top: -9999px !important;
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative !important;
+  left: auto !important;
+  top: auto !important;
+  margin-right: 10px !important;
 }
-
-/* Hide card-action completely in projects section */
+/* Show card-action in projects section */
 #projects .card-action {
-  display: none !important;
-  visibility: hidden !important;
-  height: 0 !important;
-  overflow: hidden !important;
+  display: block !important;
+  visibility: visible !important;
+  height: auto !important;
+  overflow: visible !important;
+  margin-top: auto; /* Push buttons to bottom of card content */
+  padding: 0 !important;
+  background-color: transparent !important;
+  border-top: none !important;
 }
-
 /* Ensure card-reveal content doesn't show floating buttons */
 #projects .card .card-reveal .btn-floating,
 #projects .card .card-reveal .card-action {
   display: none !important;
   visibility: hidden !important;
 }
-
 /* Style the card-reveal content properly */
 #projects .card .card-reveal {
   position: relative !important;
   overflow: hidden !important;
 }
-
 #projects .card .card-reveal ul {
   margin-bottom: 20px !important;
 }
-
 
 
 
