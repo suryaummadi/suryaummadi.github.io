@@ -520,11 +520,13 @@ a.hoverline:hover {
 
 /* for the buttton on project*/
 
-.card-action {
-    background-color: red !important;
-    padding: 20px !important;
+.card-reveal {
+    display: block !important;
+    transform: translateY(0) !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    position: relative !important;
+    z-index: 1 !important;
 }
-
 /**********************/
 
 #contact a:not(.btn-floating) {
