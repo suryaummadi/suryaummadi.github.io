@@ -567,6 +567,17 @@ small {
 } */
 
 
+/* projects section */
+
+#projects .card {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto 60px auto;
+}
+
+#projects .card .card-content {
+  padding: 24px 28px;
+}
 
 /* modified for increase of horizantal space of experience section */
 
