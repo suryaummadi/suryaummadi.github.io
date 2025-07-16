@@ -609,32 +609,46 @@ small {
   overflow: hidden !important;
 }
 
-/* Completely hide card-action from main card content */
-#projects .card .card-content .card-action,
-#projects .card .card-action:not(.card-reveal .card-action) {
-  display: none !important;
-  visibility: hidden !important;
-}
-
-/* Hide all floating buttons that might be positioned absolutely */
-#projects .card .btn-floating:not(.card-reveal .btn-floating) {
+/* Completely hide all floating action buttons in projects section */
+#projects .btn-floating {
   display: none !important;
   visibility: hidden !important;
   opacity: 0 !important;
+  position: absolute !important;
+  left: -9999px !important;
+  top: -9999px !important;
 }
 
-/* Only show in card-reveal */
+/* Hide card-action completely in projects section */
+#projects .card-action {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Ensure card-reveal content doesn't show floating buttons */
+#projects .card .card-reveal .btn-floating,
 #projects .card .card-reveal .card-action {
-  display: block !important;
-  visibility: visible !important;
+  display: none !important;
+  visibility: hidden !important;
 }
 
-#projects .card .card-reveal .btn-floating {
-  display: inline-block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
+/* Style the card-reveal content properly */
+#projects .card .card-reveal {
+  position: relative !important;
+  overflow: hidden !important;
 }
 
+#projects .card .card-reveal ul {
+  margin-bottom: 20px !important;
+}
+
+
+
+
+
+/**/
 /* modified for increase of horizantal space of experience section */
 
 @media (min-width: 1200px) {
