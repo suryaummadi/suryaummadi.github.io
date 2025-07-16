@@ -430,6 +430,11 @@ h3 {
   font-size: 85%;
   color: #666;
 }
+.card-action .btn-floating{
+
+      background-color: red !important;
+
+}
 
 .card ul {
   margin-bottom: 0;
@@ -517,17 +522,6 @@ a.hoverline:hover {
 .card.medium .card-image {
   height: 240px;
 }
-
-/* for the buttton on project*/
-
-.card-reveal {
-    display: block !important;
-    transform: translateY(0) !important;
-    background-color: rgba(255, 255, 255, 0.9) !important;
-    position: relative !important;
-    z-index: 1 !important;
-}
-/**********************/
 
 #contact a:not(.btn-floating) {
   bottom: 6px;
