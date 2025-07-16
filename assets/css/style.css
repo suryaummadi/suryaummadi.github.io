@@ -567,16 +567,17 @@ small {
 } */
 
 /*changes for project*/
-
 /* Make project cards wider on desktop */
-#projects .card {
-  width: 100%;
-  max-width: 480px;
-  margin-left: auto;
-  margin-right: auto;
+@media (min-width: 768px) {
+  #projects .card {
+    width: 100%;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-/* Allow card content height to expand naturally */
+/* Allow card content height to expand naturally for large cards */
 .card.large .card-content {
   height: auto;
 }
@@ -597,6 +598,7 @@ small {
   padding: 20px;
   border-top: 1px solid #e0e0e0;
 }
+
 
 
 /* modified for increase of horizantal space of experience section */
