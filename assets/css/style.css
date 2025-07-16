@@ -577,7 +577,7 @@ small {
   width: 100% !important;
   max-width: 500px !important; /* Prevent excessive width */
   margin: 0 auto 60px auto;
-  height: 520px; /* Fixed height for consistency */
+  height: 500px; /* Fixed height for consistency */
   display: flex;
   flex-direction: column;
 }
