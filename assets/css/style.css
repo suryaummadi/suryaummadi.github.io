@@ -571,7 +571,7 @@ small {
 
 #projects .card {
   width: 100%;
-  max-width: 420px;
+  max-width: 1000px;
   margin: 0 auto 60px auto;
 }
 
