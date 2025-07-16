@@ -606,43 +606,6 @@ small {
   display: flex;
   flex-direction: column;
 }
-/* Show floating action buttons in projects section */
-#projects .btn-floating {
-  display: inline-block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  position: relative !important;
-  left: auto !important;
-  top: auto !important;
-  margin-right: 10px !important;
-}
-/* Show card-action in projects section */
-#projects .card-action {
-  display: block !important;
-  visibility: visible !important;
-  height: auto !important;
-  overflow: visible !important;
-  margin-top: auto; /* Push buttons to bottom of card content */
-  padding: 0 !important;
-  background-color: transparent !important;
-  border-top: none !important;
-}
-/* Ensure card-reveal content doesn't show floating buttons */
-#projects .card .card-reveal .btn-floating,
-#projects .card .card-reveal .card-action {
-  display: none !important;
-  visibility: hidden !important;
-}
-/* Style the card-reveal content properly */
-#projects .card .card-reveal {
-  position: relative !important;
-  overflow: hidden !important;
-}
-#projects .card .card-reveal ul {
-  margin-bottom: 20px !important;
-}
-
-
 
 
 /**/
