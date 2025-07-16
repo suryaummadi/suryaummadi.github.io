@@ -568,15 +568,32 @@ small {
 
 
 /*modified for projects section */
+
 #projects .col.s12.m6.l4 {
-  width: 35% !important;
+  width: 50% !important;
   padding: 0 15px;
-  margin: 0 auto;
 }
 
 #projects .card {
-  max-width: 450px !important;
+  width: 100% !important;
+  max-width: 500px !important; /* Prevent excessive width */
   margin: 0 auto 60px auto;
+  height: 450px; /* Fixed height for consistency */
+  display: flex;
+  flex-direction: column;
+}
+
+#projects .card.medium .card-image {
+  height: 200px !important;
+  overflow: hidden;
+}
+
+#projects .card .card-content {
+  padding: 24px 28px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* modified for increase of horizantal space of experience section */
