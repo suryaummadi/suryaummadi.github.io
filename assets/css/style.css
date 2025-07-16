@@ -521,12 +521,15 @@ a.hoverline:hover {
 /* for the buttton on project*/
 
 .card-reveal {
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    min-height: 400px; /* Set a minimum height */
 }
 
-.card-action {
-    margin-top: auto; /* This pushes the buttons to the bottom */
+.card-reveal .card-action {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
 }
 
 .card-action a.btn-floating {
