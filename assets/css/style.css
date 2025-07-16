@@ -567,16 +567,15 @@ small {
 } */
 
 
-/* projects section */
-
+/*modified for projects section */
 #projects .col.s12.m6.l4 {
-  width: 50% !important;
+  width: 35% !important;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 #projects .card {
-  width: 100% !important;
-  max-width: none !important;
+  max-width: 450px !important;
   margin: 0 auto 60px auto;
 }
 
