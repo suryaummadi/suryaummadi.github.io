@@ -597,6 +597,21 @@ small {
   padding-top: 0 !important;
 }
 
+/* Debug version - add this temporarily */
+#projects .card .card-content .card-title {
+  background-color: rgba(255, 0, 0, 0.2) !important; /* Red background */
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.2 !important;
+}
+
+#projects .card .card-content p {
+  background-color: rgba(0, 255, 0, 0.2) !important; /* Green background */
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.4 !important;
+}
+
 /* modified for increase of horizantal space of experience section */
 
 @media (min-width: 1200px) {
