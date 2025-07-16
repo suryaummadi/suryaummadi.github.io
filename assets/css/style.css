@@ -596,6 +596,17 @@ small {
   justify-content: space-between;
 }
 
+/* Fix spacing between title and description */
+#projects .card .card-content .card-title {
+  margin-bottom: 8px !important;
+}
+
+#projects .card .card-content p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 5px;
+}
+
 /* modified for increase of horizantal space of experience section */
 
 @media (min-width: 1200px) {
