@@ -607,6 +607,26 @@ small {
   background-color: transparent !important;
   padding: 20px !important;
 }
+
+/* Hide floating action buttons that might be overlapping */
+#projects .card .card-action {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* Ensure card-reveal content is properly contained */
+#projects .card .card-reveal {
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+/* Hide any floating buttons that might be positioned outside their container */
+#projects .card .btn-floating {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+
 /* modified for increase of horizantal space of experience section */
 
 @media (min-width: 1200px) {
