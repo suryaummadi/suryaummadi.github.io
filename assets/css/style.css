@@ -527,9 +527,7 @@ a.hoverline:hover {
 
 .card-reveal .card-action {
     position: absolute !important;
-    bottom: 20px !important;
-    left: 20px !important;
-    right: 20px !important;
+   
     margin: 0 !important;
 }
 
