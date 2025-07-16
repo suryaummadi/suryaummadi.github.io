@@ -568,10 +568,12 @@ small {
 
 
 /*modified for projects section */
+
 #projects .col.s12.m6.l4 {
   width: 50% !important;
   padding: 0 15px;
 }
+
 #projects .card {
   width: 100% !important;
   max-width: 500px !important; /* Prevent excessive width */
@@ -580,33 +582,32 @@ small {
   display: flex;
   flex-direction: column;
 }
+
 #projects .card.medium .card-image {
   height: 200px !important;
   overflow: hidden;
 }
+
 #projects .card .card-content .card-title {
-  background-color: transparent !important;
-  margin-bottom: 16px !important; /* Increased space between title and description */
+  background-color: transparent !important; /* Remove any background color */
+  margin-bottom: 8px !important; /* Minimal space between title and description */
   padding: 0 !important;
   line-height: 1.2 !important;
 }
+
 #projects .card .card-content p {
-  background-color: transparent !important;
+  background-color: transparent !important; /* Remove any background color */
   margin-top: 0 !important;
-  margin-bottom: 16px !important; /* Added space below description for buttons */
+  margin-bottom: 0 !important;
   padding: 0 !important;
   line-height: 1.4 !important;
 }
+
+/* Remove any background from the card content container */
 #projects .card .card-content {
   background-color: transparent !important;
   padding: 20px !important;
-  position: relative !important;
-  overflow: hidden !important;
-  flex: 1; /* Allow content to grow */
-  display: flex;
-  flex-direction: column;
 }
-
 
 /**/
 /* modified for increase of horizantal space of experience section */
