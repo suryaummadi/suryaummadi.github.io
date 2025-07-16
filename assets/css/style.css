@@ -519,7 +519,7 @@ a.hoverline:hover {
 }
 
 .card-action a.btn-floating {
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 #contact a:not(.btn-floating) {
@@ -568,7 +568,6 @@ small {
 
 
 /*modified for projects section */
-
 #projects .col.s12.m6.l4 {
   width: 50% !important;
   padding: 0 15px;
@@ -603,7 +602,7 @@ small {
   line-height: 1.4 !important;
 }
 
-/* Remove any background from the card content container */
+/* Remove any background fcard-actionrom the card content container */
 #projects .card .card-content {
   background-color: transparent !important;
   padding: 20px !important;
