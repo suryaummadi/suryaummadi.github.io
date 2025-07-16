@@ -569,14 +569,15 @@ small {
 
 /* projects section */
 
-#projects .card {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto 60px auto;
+#projects .col.s12.m6.l4 {
+  width: 50% !important;
+  padding: 0 15px;
 }
 
-#projects .card .card-content {
-  padding: 24px 28px;
+#projects .card {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 auto 60px auto;
 }
 
 /* modified for increase of horizantal space of experience section */
