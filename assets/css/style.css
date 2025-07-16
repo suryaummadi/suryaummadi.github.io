@@ -598,7 +598,7 @@ small {
 
 /* Fix spacing between title and description */
 #projects .card .card-content .card-title {
-  margin-bottom: 8px !important;
+  margin-bottom: 2px !important;
 }
 
 #projects .card .card-content p {
