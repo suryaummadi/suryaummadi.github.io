@@ -519,7 +519,8 @@ a.hoverline:hover {
 }
 
 .card-action a.btn-floating {
-  margin-bottom: 20px;
+  margin-top: 200px;
+  margin-bottom: 0px;
 }
 
 #contact a:not(.btn-floating) {
