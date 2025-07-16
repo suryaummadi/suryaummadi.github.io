@@ -520,20 +520,20 @@ a.hoverline:hover {
 
 /* for the buttton on project*/
 
-#projects .col s12 m6 l4 .card medium .card-reveal {
+#projects .card.medium .card-reveal {
     position: relative !important;
     min-height: 400px !important;
 }
 
-#projects .col s12 m6 l4 .card medium .card-reveal .card-action {
+#projects .card.medium .card-reveal .card-action {
     position: absolute !important;
     bottom: 20px !important;
     left: 20px !important;
     right: 20px !important;
-    background-color: red !important; /* Temporary - to see if it's working */
+    background-color: red !important;
 }
 
-#projects .col s12 m6 l4 .card medium .card-reveal .card-action a.btn-floating {
+#projects .card.medium .card-reveal .card-action a.btn-floating {
     margin-bottom: 0px !important;
 }
 
