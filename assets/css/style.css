@@ -468,10 +468,10 @@ h3 {
 }
 
 .card i.right {
-  
+  margin-left: 10px;
   position: relative;
   top: 15px; /* Adjust this value to move the dots down more or less */
-  margin-left: 10px;
+  
 }
 
 a.hoverline {
@@ -531,7 +531,7 @@ a.hoverline:hover {
 }
 
 .card.medium .card-image {
-  height: 240px;
+  height: 300px;
 }
 
 #contact a:not(.btn-floating) {
