@@ -468,9 +468,10 @@ h3 {
 }
 
 .card i.right {
-  margin-left: 50px;
+  
   position: relative;
   top: 15px; /* Adjust this value to move the dots down more or less */
+  margin-left: 10px;
 }
 
 a.hoverline {
