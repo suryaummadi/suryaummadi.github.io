@@ -432,7 +432,7 @@ h3 {
 }
 
 /********buttons in projects**********/
-/*#projects .card-content {
+#projects .card-content {
     display: flex ;
     flex-direction: column ;
     height: 100% ;
@@ -441,19 +441,9 @@ h3 {
 #projects .card-content .card-action {
     margin-top: auto ;
     padding-top: 20px;
-}*/
-
-.project-card .card-content {
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  min-height: 400px; /* Optional */
 }
 
-.project-card .card-action {
-  margin-top: auto;
-  padding-top: 16px;
-}   
+
 
 /**************/
 
