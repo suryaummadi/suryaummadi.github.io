@@ -432,7 +432,9 @@ h3 {
 }
 
 /********buttons in projects**********/
-
+.card.medium {
+  height: 500px;
+}
 
 .card.medium .card-content {
   display: flex !important;
