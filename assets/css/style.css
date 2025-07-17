@@ -432,7 +432,16 @@ h3 {
 }
 
 /********buttons in projects**********/
+#projects .card-content {
+    display: flex !important;
+    flex-direction: column !important;
+    
+}
 
+#projects .card-content .card-action {
+    margin-top: auto !important;
+    padding-top: 20px !important;
+}
 /**************/
 
 .card ul {
