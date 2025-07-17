@@ -587,7 +587,7 @@ small {
 
 #projects .card {
   width: 100% !important;
-  max-width: 500px !important; /* Prevent excessive width */
+  max-width: 700px !important; /* Prevent excessive width */
   margin: 0 auto 60px auto;
   height: 500px; /* Fixed height for consistency */
   display: flex;
@@ -595,7 +595,7 @@ small {
 }
 
 #projects .card.medium .card-image {
-  height: 700px !important;
+  height: 500px !important;
   overflow: hidden;
 }
 
