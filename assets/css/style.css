@@ -393,7 +393,7 @@ h3 {
 }
 
 .card .card-content {
-  padding-bottom: 30px;
+  padding-bottom: 10px; /***updated**/
 }
 
 .card .card-content p {
