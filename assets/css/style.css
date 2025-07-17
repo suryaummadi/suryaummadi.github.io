@@ -431,7 +431,7 @@ h3 {
   color: #666;
 }
 
-/******************/
+/********buttons in projects**********/
 .card-content {
     display: flex !important;
     flex-direction: column !important;
@@ -469,6 +469,8 @@ h3 {
 
 .card i.right {
   margin-left: 10px;
+  position: relative;
+  top: 20px; /* Adjust this value to move the dots down more or less */
 }
 
 a.hoverline {
