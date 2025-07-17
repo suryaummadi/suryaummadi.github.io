@@ -435,7 +435,7 @@ h3 {
 .card-content {
     display: flex !important;
     flex-direction: column !important;
-    height: 50% !important;
+    height: 100% !important;
 }
 
 .card-content .card-action {
