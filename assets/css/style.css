@@ -393,7 +393,7 @@ h3 {
 }
 
 .card .card-content {
-  padding-bottom: 10px; /***updated**/
+  padding-bottom: 30px; /***updated**/
 }
 
 .card .card-content p {
@@ -432,16 +432,7 @@ h3 {
 }
 
 /********buttons in projects**********/
-.card-content {
-    display: flex !important;
-    flex-direction: column !important;
-    
-}
 
-.card-content .card-action {
-    margin-top: auto !important;
-    padding-top: 20px !important;
-}
 /**************/
 
 .card ul {
