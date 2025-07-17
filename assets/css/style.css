@@ -586,7 +586,7 @@ small {
 
 #projects .card {
   width: 100% !important;
-  max-width: 550px !important; /* Prevent excessive width */
+  max-width: 800px !important; /* Prevent excessive width */
   margin: 0 auto 60px auto;
   height: 500px; /* Fixed height for consistency */
   display: flex;
