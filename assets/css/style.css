@@ -468,7 +468,7 @@ h3 {
 }
 
 .card i.right {
-  margin-left: 10px;
+  margin-left: 50px;
   position: relative;
   top: 15px; /* Adjust this value to move the dots down more or less */
 }
@@ -586,7 +586,7 @@ small {
 
 #projects .card {
   width: 100% !important;
-  max-width: 800px !important; /* Prevent excessive width */
+  max-width: 500px !important; /* Prevent excessive width */
   margin: 0 auto 60px auto;
   height: 500px; /* Fixed height for consistency */
   display: flex;
